@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Soy otra web</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap");
+      table,
+      td {
+        border: 1px solid black;
+        width: 100%;
+        color: rgb(22, 2, 2);
+        text-align: center;
+        font-family: "Beth Ellen", cursive;
+      }
+      th {
+        color: blue;
+        font-size: 20px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .mochila {
+        /*
+        border-color:red;
+        border-width: 2px;
+        border-style: groove;
+        */
+        border: 2px groove red;
+      }
+      ul {
+        list-style: circle;
+        font-weight: 900;
+      }
+      ol {
+        list-style: upper-roman;
+      }
+      strong {
+        font-weight: 900;
+        color: blue;
+      }
+      .aprendiz {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        color: blue;
+      }
+      ol li strong {
+        color: rgb(255, 255, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Nosotros</h1>
+    <p>Somos un grupo de <strong>aprendíces</strong> de páginas web.</p>
+    <h2>CSS</h2>
+    <!-- Listas desordenadas (unordered list) -->
+    <ul>
+      <li>Lápiz</li>
+      <li><strong>Pluma</strong></li>
+      <li>Goma</li>
+    </ul>
+    <!-- Listas ordenadas -->
+    <ol>
+      <li><strong>Mochila</strong></li>
+      <li>Celular</li>
+      <li>
+        <span><strong>Colores</strong></span>
+      </li>
+    </ol>
+
+    <table>
+      <tr>
+        <th>Útiles</th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+      </tr>
+      <tr>
+        <td class="mochila">Mochila</td>
+        <td>1</td>
+        <td>$400</td>
+      </tr>
+      <tr>
+        <td>Colores</td>
+        <td>12</td>
+        <td>$32</td>
+      </tr>
+    </table>
+  </body>
+</html>
